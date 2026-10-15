@@ -14,7 +14,7 @@ const db = getDatabase(app);
 const aboutData = {
   mission: "Empowering individuals to transition to sustainable energy through innovation and accessibility.",
   vision: "To become the world's leading marketplace for sustainable living, making eco-friendly tech the 'new normal' for every household.",
-  story: "Founded in 2025, GreenTech started with a simple question: 'Why is it so hard to find reliable solar tech and eco-products in one place?' What began as a small project to curate EV batteries and solar lights has grown into a global marketplace. We partner with vetted vendors who share our passion for the environment, ensuring that every product you buy contributes to a healthier earth.",
+  story: "Founded in 2025, Verdant started with a simple question: 'Why is it so hard to find reliable solar tech and eco-products in one place?' What began as a small project to curate EV batteries and solar lights has grown into a global marketplace. We partner with vetted vendors who share our passion for the environment, ensuring that every product you buy contributes to a healthier earth.",
   stats: {
     productsSold: "5k+",
     vettedVendors: "120+",

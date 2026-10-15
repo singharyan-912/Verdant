@@ -8,7 +8,7 @@ const CustomerNavbar = () => {
             <div className="header-container">
                 <Link to="/customer" className="logo" style={{ cursor: 'pointer', textDecoration: 'none' }}>
                     <img src="/asset/site_logo.jpg" alt="Logo" className="logo-icon" loading="lazy" />
-                    <span className="logo-text">Green<span>Tech</span></span>
+                    <span className="logo-text">Verd<span>ant</span></span>
                 </Link>
                 
                 <div className="search-bar">

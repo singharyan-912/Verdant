@@ -61,7 +61,7 @@ const Home = () => {
             <section className="features section fade-in">
                 <div className="container">
                     <div className="section-header">
-                        <h2>Why Choose GreenTech?</h2>
+                        <h2>Why Choose Verdant?</h2>
                         <p>We provide the tools and platform for a sustainable future.</p>
                     </div>
 
@@ -92,9 +92,9 @@ const Home = () => {
                         <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070&auto=format&fit=crop" alt="Our Office" />
                     </div>
                     <div className="about-content">
-                        <span className="about-tag">About GreenTech</span>
+                        <span className="about-tag">About Verdant</span>
                         <h2>Bridging the Gap Between <span className="highlight">Tech & Nature</span></h2>
-                        <p>{aboutContent?.story || "Founded in 2024, GreenTech was born from a simple idea: that technology should preserve our planet, not deplete it. We've built a curated ecosystem where innovators and consumers meet to accelerate the world's transition to sustainable energy."}</p>
+                        <p>{aboutContent?.story || "Founded in 2024, Verdant was born from a simple idea: that technology should preserve our planet, not deplete it. We've built a curated ecosystem where innovators and consumers meet to accelerate the world's transition to sustainable energy."}</p>
                         <p>Our marketplace carefully vets every product for its eco-score, ensuring that your purchases align with your values.</p>
 
                         <div className="impact-stats">

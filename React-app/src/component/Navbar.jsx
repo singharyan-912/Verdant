@@ -72,7 +72,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <Link to="/" className="brand-logo">
                     <div className="logo-icon">🌿</div>
-                    <span className="logo-text">Green<span>Tech</span></span>
+                    <span className="logo-text">Verd<span>ant</span></span>
                 </Link>
 
                 {/* Desktop Navigation */}
@@ -166,7 +166,7 @@ const Navbar = () => {
             {/* Mobile Drawer */}
             <div className={`mobile-drawer ${isMenuOpen ? 'active' : ''}`}>
                 <div className="drawer-header">
-                    <span className="logo-text">Green<span>Tech</span></span>
+                    <span className="logo-text">Verd<span>ant</span></span>
                     <button className="close-drawer" onClick={() => setIsMenuOpen(false)}>×</button>
                 </div>
                 <ul className="mobile-nav-list">

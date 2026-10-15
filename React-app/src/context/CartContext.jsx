@@ -7,7 +7,7 @@ export const useCart = () => useContext(CartContext);
 export const CartProvider = ({ children }) => {
     const [cart, setCart] = useState(() => {
         try {
-            const savedCart = localStorage.getItem('greentech_cart');
+            const savedCart = localStorage.getItem('verdant_cart') || localStorage.getItem('greentech_cart');
             return savedCart ? JSON.parse(savedCart) : [];
         } catch {
             return [];
@@ -15,7 +15,7 @@ export const CartProvider = ({ children }) => {
     });
 
     useEffect(() => {
-        localStorage.setItem('greentech_cart', JSON.stringify(cart));
+        localStorage.setItem('verdant_cart', JSON.stringify(cart));
     }, [cart]);
 
     const addToCart = (product) => {

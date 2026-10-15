@@ -114,7 +114,7 @@ const Login = () => {
                 <div className="auth-visual-side login-bg">
                     <div className="overlay"></div>
                     <div className="visual-content">
-                        <div className="brand-badge"><i className="fas fa-seedling"></i> GreenTech Ecosystem</div>
+                        <div className="brand-badge"><i className="fas fa-seedling"></i> Verdant Ecosystem</div>
                         <h1>Welcome Back.</h1>
                         <p>Access your personalized dashboard to manage technologies, track sales, and monitor your environmental impact.</p>
                         

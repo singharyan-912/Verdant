@@ -639,11 +639,11 @@ const AdminDashboard = () => {
                 <div className="settings-form">
                     <div className="form-group">
                         <label>Platform Name</label>
-                        <input type="text" className="form-control" defaultValue={data.settings.platformName || 'GreenTech Marketplace'} />
+                        <input type="text" className="form-control" defaultValue={data.settings.platformName || 'Verdant Marketplace'} />
                     </div>
                     <div className="form-group">
                         <label>Support Email</label>
-                        <input type="email" className="form-control" defaultValue={data.settings.supportEmail || 'support@greentech.com'} />
+                        <input type="email" className="form-control" defaultValue={data.settings.supportEmail || 'support@verdant.com'} />
                     </div>
                     <div className="form-group">
                         <label>Maintenance Mode</label>
@@ -673,8 +673,8 @@ const AdminDashboard = () => {
             {/* Sidebar */}
             <aside className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
                 <div className="sidebar-header">
-                    <img src="/asset/admin-logo.png" className="logo-icon" alt="GreenTech Logo" />
-                    <h2>Green<span>Tech</span></h2>
+                    <img src="/asset/admin-logo.png" className="logo-icon" alt="Verdant Logo" />
+                    <h2>Verd<span>ant</span></h2>
                 </div>
 
                 <nav className="sidebar-nav">

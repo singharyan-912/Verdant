@@ -29,7 +29,7 @@ export const WishlistProvider = ({ children }) => {
                     }
                 } else {
                     // Sync from Local Storage
-                    const savedWishlist = localStorage.getItem('greentech_wishlist');
+                    const savedWishlist = localStorage.getItem('verdant_wishlist') || localStorage.getItem('greentech_wishlist');
                     setWishlist(savedWishlist ? JSON.parse(savedWishlist) : []);
                 }
             } catch (error) {
@@ -49,7 +49,7 @@ export const WishlistProvider = ({ children }) => {
         if (currentUser) {
             set(ref(database, `wishlists/${currentUser.uid}`), wishlist);
         } else {
-            localStorage.setItem('greentech_wishlist', JSON.stringify(wishlist));
+            localStorage.setItem('verdant_wishlist', JSON.stringify(wishlist));
         }
     }, [wishlist, currentUser, loading]);
 

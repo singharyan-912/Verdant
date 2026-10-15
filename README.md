@@ -1,12 +1,11 @@
-[Green Technology Marketplacereadmefile.txt](https://github.com/user-attachments/files/25872073/Green.Technology.Marketplacereadmefile.txt)
-# Green Technology Marketplace
+# Verdant
 
-##  Live Website
+## Live Website
 https://test-21190.web.app
 
 # Project Overview
 
-The Green Technology Marketplace** is an online platform designed to promote eco-friendly products by connecting vendors who sell green technology with customers who want to make sustainable purchases.
+**Verdant** is an online platform designed to promote eco-friendly products by connecting vendors who sell green technology with customers who want to make sustainable purchases.
 
 The platform allows customers to browse and purchase environmentally friendly products, vendors to manage their product listings and orders, and administrators to oversee users, products, and system settings.
 
